@@ -38,9 +38,9 @@
                     <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
                     <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
                     <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
-                    <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
+                    <li class="nav-item"><a href="#services-section" class="nav-link"><span>What i do</span></a></li>
                     <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-                    <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+
                 </ul>
             </div>
         </div>
@@ -59,7 +59,7 @@
                             <div class="text">
                                 <span class="subheading">Hello! This is chamal</span>
                                 <h1 class="mb-4 mt-3">Full-Stack<span><br></span> Developer</h1>
-                                <p><a href="#" class="btn btn-primary" style="background-color:black">Hire me</a> <a href="#" class="btn btn-primary btn-outline-primary" style="color: black !important;">Download CV</a></p>
+                                <p><a href="#" class="btn btn-primary" style="background-color:black">Hire me</a> <a href="#" class="btn btn-primary btn-outline-primary " id="cv">Download CV</a></p>
                             </div>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
             <div class="row justify-content-center pb-5">
                 <div class="col-md-12 heading-section text-center ftco-animate">
                     <span class="subheading">Skills</span>
-                    <h2 class="mb-4">My Skills</h2>
+                    <h2 class="mb-4">Tools & Technologies</h2>
 
                 </div>
             </div>
@@ -351,10 +351,9 @@
                         </div>
 
                         <div class="col-md-4">
-                            <div id="google" class="card text-white card-has-bg click-col" style="background-image:url('data:image/png;base64,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');">
+                            <div id="google" class="card text-white card-has-bg click-col" style="background-image:url('https://www.apkmirror.com/wp-content/uploads/2018/04/5ae033d05d6eb.png');">
 
-                                <img class="card-img d-none" src="data:image/png;base64,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"
-                                    alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+                                <img class="card-img d-none" src="https://www.apkmirror.com/wp-content/uploads/2018/04/5ae033d05d6eb.png" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
                                 <div class="card-img-overlay d-flex flex-column">
                                     <div class="card-body">
 
@@ -513,7 +512,7 @@
     </div>
     </div>
     </div>
-    </section> -->
+    </section>
 
 
     <footer class="ftco-footer ftco-section">

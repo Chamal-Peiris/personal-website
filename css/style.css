@@ -632,6 +632,34 @@ pre code {
     }
 }
 
+@media (min-width: 992px) {
+    #cv {
+        color: black !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .subheading {
+        color: white !important;
+        font-weight: bolder !important;
+    }
+    #cv {
+        background-color: rgb(31, 31, 31) !important;
+        color: white !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .subheading {
+        color: white !important;
+        font-weight: bolder !important;
+    }
+    #cv {
+        background-color: rgb(31, 31, 31) !important;
+        color: white !important;
+    }
+}
+
 .container-fluid {
     width: 100%;
     padding-right: 15px;
