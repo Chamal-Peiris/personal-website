@@ -67,6 +67,10 @@ section {
     display: block;
 }
 
+.personal-details {
+    color: rgb(70, 67, 67) !important;
+}
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -80,6 +84,19 @@ body {
 
 [tabindex="-1"]:focus {
     outline: 0 !important;
+}
+
+ion-icon {
+    font-size: 30px;
+}
+
+.social {
+    color: #002752 !important;
+}
+
+.social:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 hr {
