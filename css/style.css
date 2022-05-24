@@ -700,8 +700,8 @@ pre code {
         font-weight: bolder !important;
     }
     #cv {
-        background-color: rgb(31, 31, 31) !important;
-        color: white !important;
+        background-color: rgb(255, 245, 245) !important;
+        color: rgb(0, 0, 0) !important;
     }
     #home-section {
         display: none;
