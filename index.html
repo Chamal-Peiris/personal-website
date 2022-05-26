@@ -639,11 +639,11 @@
             </div>
         </div>
     </footer>
-<a href="#">
-    <button class="scroll-up">
+
+    <button class="scroll-up" type="button">
         <ion-icon name="arrow-up-circle-outline"></ion-icon>
-    </button>
-</a>
+  
+    </a>
     <br><br>
 
 
@@ -666,6 +666,21 @@
     <script src="js/google-map.js"></script>
 
     <script src="js/main.js"></script>
+    <script>
+        // var myScroller = document.getElementById('scroll-up');
+        // window.addEventListener('scroll', (e) => {
+        //     let scroll = this.scrollY;
+        //     if (scroll > 7000) {
+        //         window.scrollTo(0, 7000);
+        //     }
+        //     console.log(scroll);
+        // });
+
+        var btn = document.querySelector('.scroll-up');
+        btn.addEventListener('click', (e) => {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        })
+    </script>
 
 </body>
 

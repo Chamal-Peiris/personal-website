@@ -175,7 +175,7 @@
              if(st<47){
                  scroller.style.display='none';
              }
-            
+
              if (st > 350) {
                  if (!navbar.hasClass('awake')) {
                      navbar.addClass('awake');
