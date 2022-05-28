@@ -13467,6 +13467,10 @@ textarea.form-control {
     outline: none;
     border: none;
     opacity: 0.5;
+    animation-name: walking-man;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
 }
 
 .scroll-up:hover {
@@ -13480,4 +13484,25 @@ textarea.form-control {
     position: relative;
     left: 5px;
     top: 5px;
+}
+
+@keyframes walking-man {
+    0% {
+        top: 90%;
+    }
+    10% {
+        top: 88%;
+    }
+    15% {
+        top: 87%;
+    }
+    20% {
+        top: 86%;
+    }
+    25% {
+        top: 85%;
+    }
+    30% {
+        top: 84%;
+    }
 }
